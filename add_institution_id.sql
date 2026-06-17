@@ -1,0 +1,2 @@
+ALTER TABLE users
+ADD institutionID VARCHAR(50) NOT NULL DEFAULT '' AFTER name;
